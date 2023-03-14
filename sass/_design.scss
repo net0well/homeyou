@@ -1,0 +1,93 @@
+.design-section {
+    height: 718px;
+    display: flex;
+    gap: 106px;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .left-area {
+        max-width: 537px;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        img {
+            box-shadow: -50px -50px 0px $black;
+        }
+
+    }
+
+    .rigth-area {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        .card {
+            background-color: $black;
+            max-width: 585px;
+            // height: 182px;
+            padding: 20px 30px 30px 30px;
+
+            h2 {
+                color: $white;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 34px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: $white;
+                max-width: 521px;
+            }
+
+        }
+
+        a {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-decoration: underline;
+            align-self: flex-start;
+            padding: 8px 12px;
+        }
+    }
+
+    @include responsive(1120px) {
+        justify-content: center;
+        height: 292px;
+
+        .left-area {
+            display: none;
+        }
+    }
+
+    @include responsive(600px) {
+
+
+        .rigth-area {
+            .card {
+                h2 {
+                    font-size: 24px;
+                    line-height: 29px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 140%;
+                }
+            }
+
+            a {
+                text-align: center;
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+    }
+}
