@@ -1,7 +1,7 @@
 # Home You
 
 Desafio feito da comunidade codelândia do 
-[Yuri Silva](https://discord.com/channels/853354677411905578/853363178901733387), nele coloquei em pratica algumas coisas que venho aprendendo!
+Wellington Neto, nele coloquei em pratica algumas coisas que venho aprendendo!
 
 
 ## Tecnologias utilizadas
@@ -30,4 +30,4 @@ Decidi fazer algo a mais do que simplesmente fazer o layout do figma.
 
 
 #### Autor
-  Feito por Wallace 👋!
+  Feito por Well 👋!
